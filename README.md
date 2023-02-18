@@ -13,6 +13,17 @@ NetConstruct created the **Multiple Page Selector** form control to bridge this 
 3. In your **CMSApp** solution, add [these files](./CMS/CMSFormControls/MultiplePageSelector) into the folder `CMS/CMSFormControls/MultiplePageSelector`
 4. Build the solution
 5. The **Multiple Page Selector** form control should now be available on Page Types, Custom Tables, Controls and WebParts for data types **Long text** and **Text**
+6. In your code, you will need to retrieve the Page Type field, and then split on the semicolon delimited list to get the NodeGUIDs of the selected pages.
+
+When you've configured the form control for a field, you will be presented with a Select button which allows you to add pages. Once added, each page has reorder buttons to move the page up/down the list, and a recycle bin button to delete the selected page from the list.
+
+See below for an example of selected pages, which also shows the returned semicolon delimited list.
+
+![Example of form control with selected pages.](./images/ExampleUsage.png)
+
+When you click the Select button to select a page, you are presented with the native Kentico page selector, see below:
+
+![Example of form control with selected pages.](./images/ExampleUsesKenticoPageSelector.png)
 
 ## Contributing
 If you find something wrong with the code, find a bug, or are having problems using the form control, then please open an Issue.
