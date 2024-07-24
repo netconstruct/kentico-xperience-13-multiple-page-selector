@@ -4,7 +4,7 @@ In Kentico Xperience 13's page builder, you get access to a [great editing compo
 
 Unfortunately this component is restricted to only the page builder. It is extremely useful for widgets, but is not available for other areas of the administration portal such as Page Type fields.  These other areas are still based on Portal Engine/WebForms controls, which means you cannot access the page builder components.
 
-NetConstruct created the **Multiple Page Selector** form control to bridge this gap. This form control allows you to add and remove multiple pages to a Page Type field. It also gives you the ability to reorder them.
+IDHL created the **Multiple Page Selector** form control to bridge this gap. This form control allows you to add and remove multiple pages to a Page Type field. It also gives you the ability to reorder them.
 
 ## How to Use?
 
